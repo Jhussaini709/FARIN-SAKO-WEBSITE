@@ -1,0 +1,2 @@
+title: My Audio Files
+include: ["*.mp3", "*.wav", "*.ogg"]
