@@ -5,27 +5,107 @@
     <title>Mp3 app</title>
 </head>
 <body>
-    
-<h2>FARIN SAKO ZUWAGA KUNGIYAR IZALA</h2>
-
-<link rel="stylesheet" href="index.md">
-
-   
     <style>
-    Body{
+   Body{
 Background-image:url(A.png);
-Background-position:center;
 Background-size:cover;
+Background-position:center;
 Background-repeat:no-repeat;
-}        
-h2{
-color: white;
+
 }
-     Body{
-height: 100vh;
-margin: 0;
-pending: 0;
+body{
+    height: 100vh;
+    margin: 0;
+    pending: 0;
 }
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+}
+
+nav ul li {
+  margin-right: 20px;
+  position: relative;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #555;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.dropdown-toggle {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-menu li {
+  margin-bottom: 10px;
+}
+
+.dropdown-menu a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.dropdown-menu a:hover {
+  background-color: #555;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+ 
+</style>
+<head>
+    <body>
+          <nav>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li class="dropdown">
+      <a href="#" class="dropdown-toggle">Services <i class="arrow down"></i></a>
+      <ul class="dropdown-menu">
+        <li><a href="#">Service 1</a></li>
+        <li><a href="#">Service 2</a></li>
+        <li><a href="#">Service 3</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+
+<audio src="Farin Sako 1.mp3"controls></audio>
+  <p><audio src="farin sako 2.mp3"controls><audio></p>
+   <p><audio src="farin sako 3.mp3"controls></audio></p>
+    <p><audio src="farin sako 4.mp3"controls></audio></p>
+    
+    
 </style>
     </body>
-    </html>
+          </html>
+    
